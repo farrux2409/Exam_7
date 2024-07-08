@@ -156,15 +156,15 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2'
 ]
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''  # Google Client ID
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''  # Google Client Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '59774428931-8ur7ml2juu0bo19i4h2nho4uj1hkp86q.apps.googleusercontent.com'  # Google Client ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'  # Google Client Secret
 
 LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'farruxyoldoshov2409@gmail.com'
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_PASSWORD = 'vcex lqar sslh rivz'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER

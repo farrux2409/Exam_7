@@ -77,11 +77,11 @@ class EventsListView(ListView):
 class EventsDetailView(TemplateView):
     template_name = 'app/event-detail.html'
 
-    # def get_context_data(self, **kwargs):
-    #     contex = super().get_context_data(**kwargs)
-    #     event = Event.objects.get(slug=self.kwargs['slug'])
-    #     contex['event'] = event
-    #     return contex
+    def get_context_data(self, **kwargs):
+        contex = super().get_context_data(**kwargs)
+        event = Event.objects.get(slug=self.kwargs['slug'])
+        contex['event'] = event
+        return contex
 
 
 # def detail(request, slug):
