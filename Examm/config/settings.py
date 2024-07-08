@@ -158,7 +158,7 @@ AUTHENTICATION_BACKENDS = [
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '59774428931-8ur7ml2juu0bo19i4h2nho4uj1hkp86q.apps.googleusercontent.com'  # Google Client ID
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'  # Google Client Secret
-
+print(123)
 LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
