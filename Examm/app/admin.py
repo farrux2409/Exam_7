@@ -1,6 +1,8 @@
 from django.contrib import admin
-from app.models import Event, Member, User, People, Contact
 from django.contrib.auth.models import Group
+
+from app.models import Member, User, People, Contact, Event
+# from django.contrib.auth.models import Group
 from import_export.admin import ImportExportModelAdmin
 
 # Register your models here.
@@ -45,3 +47,5 @@ class ContactAdmin(admin.ModelAdmin):
     list_display = ['full_name', 'email', 'message']
     search_fields = ['email', 'full_name']
     list_filter = ['created_at']
+
+# @admin.register(Group)
